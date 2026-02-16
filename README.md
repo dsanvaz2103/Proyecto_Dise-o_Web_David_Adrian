@@ -14,7 +14,7 @@ proyecto-sass/
 │   ├── carta.html
 │   ├── contacto.html
 │   └── inicio.html
-├── img/ (directorio de imágenes)
+├── img/
 ├── scss/
 │   ├── base/
 │   │   ├── _reset.scss
@@ -29,7 +29,7 @@ proyecto-sass/
 │   │   ├── _footer.scss
 │   │   ├── _header.scss
 │   │   └── _login.scss
-│   └── main.scss (archivo importador principal)
+│   └── main.scss
 ├── index.html
 └── README.md
 
