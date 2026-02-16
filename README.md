@@ -4,20 +4,37 @@ Integrante 1: Adrián Aránegas Molina
 
 Integrante 2: David Sánchez Vázquez
 
-proyecto-sass/ │ ├─ scss/ │ ├─ base/ │ │ ├─ _reset.scss
-│ │ ├─ _tipografia.scss
-│ │ └─ _variables.scss
-│ │ ├─ layouts/ │ │ ├─ _header.scss
-│ │ |─ _footer.scss
-│ │
-│ │ ├─ components/ │ │ ├─ _buttons.scss
-│ │ ├─ _tipografias.scss
-│ │ └─ _forms.scss
-│ │ └─ main.scss
-│ ├─ html/
-│ ├─ inicio.html │ ├─ carta.html │ ├─ contacto.html │ └─ carrito.html │ ├─ img/
-├─ css/main.css
+
+proyecto-sass/
+│
+├─ scss/
+│   ├─ base/
+│   │   ├─ _reset.scss            
+│   │   ├─ _tipografia.scss       
+│   │   └─ _variables.scss       
+│
+│   ├─ layouts/
+│   │   ├─ _header.scss          
+│   │   |─ _footer.scss           
+│   │              
+│
+│   ├─ components/
+│   │   ├─ _buttons.scss          
+│   │   ├─ _tipografias.scss      
+│   │   └─ _forms.scss            
+│
+│   └─ main.scss                  
+│
+├─ html/                          
+│   ├─ inicio.html
+│   ├─ carta.html
+│   ├─ contacto.html
+│   └─ carrito.html
+│
+├─ img/                           
+├─ css/main.css                     
 └─ README.md
+
 
 🔄Refactorizaciones respecto al CSS original
 
@@ -30,6 +47,7 @@ Implementación de mixins para botones.
 Uso de funciones de Sass: darken() , calc() .
 
 Código más limpio y fácil de mantener.
+
 
 ✨ Ventajas que aporta SASS al proyecto
 
