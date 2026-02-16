@@ -5,6 +5,9 @@ Integrante 1: Adrián Aránegas Molina
 Integrante 2: David Sánchez Vázquez
 
 
+### Árbol de Directorios
+
+```text
 proyecto-sass/
 ├── css/
 │   ├── main.css
