@@ -35,6 +35,7 @@ proyecto-sass/
 │   └── main.scss
 ├── index.html
 └── README.md
+```
 
 
 🔄Refactorizaciones respecto al CSS original
