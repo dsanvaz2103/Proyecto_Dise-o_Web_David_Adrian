@@ -1,0 +1,57 @@
+@use '../base/variables' as *;
+// Contenedor base para secciones centradas (Carrito y Contacto)
+.cart-container,
+.contact-form {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: $colorFondo;
+    padding: 30px;
+    border-radius: $border-radius;
+}
+
+// Items del carrito con Flexbox
+.cart-item {
+    display: flex;
+    align-items: center;
+    background-color: $colorBlanco;
+    border-radius: $border-radius;
+    padding: 15px;
+    margin-bottom: 15px;
+    gap: 20px;
+    img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .item-info {
+        flex: 1;
+        .item-qty {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            input {
+                width: 50px;
+                padding: 5px;
+            }
+        }
+        .item-price {
+            font-weight: bold;
+            color: $colorSecundario;
+        }
+    }
+}
+
+// Estilos de formulario de contacto e inputs generales
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    input,
+    textarea {
+        padding: 10px;
+        border-radius: $border-radius;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+}

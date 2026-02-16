@@ -1,0 +1,32 @@
+@use '../base/variables' as *;
+@mixin btn-base($colorFondo, $text-color: $colorBlanco, $font-size: 14px) {
+    background-color: $colorFondo;
+    color: $text-color;
+    padding: 10px 20px;
+    border-radius: $border-radius;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: $font-size;
+    &:hover {
+        background-color: darken($colorFondo, 10%);
+    }
+}
+
+.btn-add {
+    @include btn-base($colorSecundario);
+    width: 180px;
+}
+
+.btn-submit,
+.btn-checkout {
+    @include btn-base($colorSecundario);
+    width: 100%;
+}
+
+.item-actions button {
+    @include btn-base($textoPrincipal);
+    padding: 8px 15px;
+}

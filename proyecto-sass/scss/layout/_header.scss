@@ -1,0 +1,28 @@
+@use '../base/variables' as *;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $colorFondoHeader;
+    padding: 20px 40px;
+    .logo img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 50px;
+        margin: 0;
+        li a {
+            color: $colorBlanco;
+            text-decoration: none;
+            font-size: 30px;
+            &:hover {
+                color: $colorSecundario;
+            }
+        }
+    }
+}

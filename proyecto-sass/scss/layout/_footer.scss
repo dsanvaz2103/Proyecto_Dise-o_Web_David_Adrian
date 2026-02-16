@@ -1,0 +1,11 @@
+    @use '../base/variables' as *;
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $colorFondoHeader;
+        color: $colorBlanco;
+        padding: 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
