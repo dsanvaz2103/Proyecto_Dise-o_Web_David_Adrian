@@ -6,34 +6,32 @@ Integrante 2: David Sánchez Vázquez
 
 
 proyecto-sass/
-│
-├─ scss/
-│   ├─ base/
-│   │   ├─ _reset.scss            
-│   │   ├─ _tipografia.scss       
-│   │   └─ _variables.scss       
-│
-│   ├─ layouts/
-│   │   ├─ _header.scss          
-│   │   |─ _footer.scss           
-│   │              
-│
-│   ├─ components/
-│   │   ├─ _buttons.scss          
-│   │   ├─ _tipografias.scss      
-│   │   └─ _forms.scss            
-│
-│   └─ main.scss                  
-│
-├─ html/                          
-│   ├─ inicio.html
-│   ├─ carta.html
-│   ├─ contacto.html
-│   └─ carrito.html
-│
-├─ img/                           
-├─ css/main.css                     
-└─ README.md
+├── css/
+│   ├── main.css
+│   └── main.css.map
+├── html/
+│   ├── carrito.html
+│   ├── carta.html
+│   ├── contacto.html
+│   └── inicio.html
+├── img/ (directorio de imágenes)
+├── scss/
+│   ├── base/
+│   │   ├── _reset.scss
+│   │   ├── _tipografia.scss
+│   │   └── _variables.scss
+│   ├── components/
+│   │   ├── _buttons.scss
+│   │   ├── _cards.scss
+│   │   └── _forms.scss
+│   ├── layout/
+│   │   ├── _cuerpo.scss
+│   │   ├── _footer.scss
+│   │   ├── _header.scss
+│   │   └── _login.scss
+│   └── main.scss (archivo importador principal)
+├── index.html
+└── README.md
 
 
 🔄Refactorizaciones respecto al CSS original
